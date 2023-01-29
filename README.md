@@ -156,6 +156,11 @@ To <b>status</b> your service, run this command:
 
 ```
 
+### Mongo Database
+```python
+db.createUser({user:"username", pwd:"password", roles:[{role:"root", db:"admin"}]})
+```
+
 <b>Thank you</b> for reading this article !!
 
 * BY [RANDY](https://t.me/xtsea)
