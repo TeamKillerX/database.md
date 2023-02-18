@@ -13,4 +13,4 @@ userID : {m.from_user.id}
 ini tulis 
 """
 
-    await m.reply_text(start_text)
+    await m.reply_text(start_text, quote=True)
